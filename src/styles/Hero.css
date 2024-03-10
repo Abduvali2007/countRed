@@ -1,0 +1,40 @@
+body {
+  background: #02115d;
+}
+
+.all {
+  display: flex;
+  gap: 200px;
+  align-items: center;
+  margin-top: 200px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.take {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+}
+.add {
+  width: 200px;
+  height: 200px;
+  background: #2cf204;
+  border-radius: 20px;
+}
+.between {
+  display: flex;
+  flex-direction: column;
+}
+.between input {
+  padding: 10px 50px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.between button {
+  border-radius: 20px;
+  padding: 10px 30px;
+  color: aliceblue;
+  background: #00ffcc;
+  margin-top: 20px;
+}
